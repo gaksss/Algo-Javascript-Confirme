@@ -111,3 +111,12 @@
 //   multiple = nombre * i;
 //   console.log(+nombre + " x " + i + " = " + multiple);
 // }
+
+// EXERCICE 5.6
+
+// let nombre = prompt("Donne un nombre");
+// let somme = 0;
+// for (i = 1; i <= nombre; i++) {
+//   somme = somme + i;
+// }
+// console.log(somme);
