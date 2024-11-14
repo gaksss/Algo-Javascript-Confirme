@@ -100,3 +100,14 @@
 
 //   num++;
 // }
+
+// EXERCICE 5.5
+
+// let nombre = prompt("Donne un nombre");
+// let multiple;
+// console.log("Table de " + nombre + "\n");
+
+// for (i = 1; i <= 10; i++) {
+//   multiple = nombre * i;
+//   console.log(+nombre + " x " + i + " = " + multiple);
+// }
