@@ -66,3 +66,18 @@
 
 // let num = prompt("Donne un nombre")
 
+// while (num < 10 || num > 20){
+//     if (num < 10){
+//         alert("PLUS GRAND!")
+//         num = prompt("Donne un nombre")
+//     }
+//     else if (num > 20){
+//         alert("PLUS PETIT!")
+//         num = prompt("Donne un nombre")
+//     }
+//     else if (num >= 10 || num <= 20) {
+//         alert("C'est Bon!")
+        
+//     }
+// }
+
