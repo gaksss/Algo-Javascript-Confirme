@@ -90,3 +90,13 @@
 //   count++;
 //   num++;
 // }
+
+// EXERCICE 5.4
+
+// let num = prompt("Donne un numéro a additionner ");
+
+// for (i = 0; i <= 10; i++) {
+//   console.log(num);
+
+//   num++;
+// }
