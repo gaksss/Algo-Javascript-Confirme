@@ -77,7 +77,16 @@
 //     }
 //     else if (num >= 10 || num <= 20) {
 //         alert("C'est Bon!")
-        
+
 //     }
 // }
 
+// EXERCICE 5.3
+
+// let num = prompt("Donne un numéro a additionner ");
+// let count = 0;
+// while (count <= 10) {
+//   console.log(num);
+//   count++;
+//   num++;
+// }
