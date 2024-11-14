@@ -33,3 +33,16 @@
 //   count = count - 1;
 // }
 // console.log("Décollage !");
+
+// EXERCICE 4
+
+// const amis = ["toubo ", "bassem ", "jérémy "];
+
+// for (let index = 0; index < amis.length; index++) {
+    
+//     while (amis[index] < amis.length){
+        
+//     }
+//     console.log( amis[index].repeat(index+1)); 
+//   }
+  
