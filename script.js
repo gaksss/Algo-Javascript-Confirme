@@ -121,7 +121,7 @@
 // }
 // console.log(somme);
 
-// EXERCICE 5.6
+// EXERCICE 5.7
 
 // let nombre = prompt("Donne un nombre");
 // let multiple = 1;
@@ -129,3 +129,19 @@
 //   multiple = multiple * i;
 // }
 // console.log(multiple);
+
+// EXERCICE 5.8
+
+let chiffres = [];
+let compare = chiffres[0];
+
+for (i = 1; i <= 20; i++) {
+  let num = prompt("Donne un chiffre :");
+  chiffres.push(num);
+}
+for (i = 0; i < chiffres.length; i++) {
+  if (chiffres[i] > compare) {
+    compare = chiffres[i];
+  }
+  console.log("Le nombre le plus grand est " + compare);
+}
