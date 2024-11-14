@@ -120,3 +120,12 @@
 //   somme = somme + i;
 // }
 // console.log(somme);
+
+// EXERCICE 5.6
+
+// let nombre = prompt("Donne un nombre");
+// let multiple = 1;
+// for (i = 1; i <= nombre; i++) {
+//   multiple = multiple * i;
+// }
+// console.log(multiple);
