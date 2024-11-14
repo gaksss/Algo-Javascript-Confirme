@@ -51,9 +51,18 @@
 // let iaNumber = 2;
 // let userNumber = prompt("Donne un numéro entre 1 et 3 ");
 
-// if (userNumber != iaNumber) {
-//   alert("Ce n'est pas le bon numéro essaie encore");
-//   prompt("Donne un autre numéro entre 1 et 3 ");
-// } else if (userNumber == iaNumber) {
-//   alert("C'est le bon numéro bravo");
+// while ( userNumber != iaNumber || userNumber == iaNumber){
+//     if (userNumber == iaNumber){
+//         alert("C'est le bon numéro");
+//         break
+//     }
+//     else if (userNumber != iaNumber){
+//         alert("Ce n'est pas le bon nombre réessaie");
+//         userNumber = prompt("Donne un numéro entre 1 et 3 ");
+//     }
 // }
+
+// EXERCICE 5.2
+
+// let num = prompt("Donne un nombre")
+
