@@ -39,10 +39,21 @@
 // const amis = ["toubo ", "bassem ", "jérémy "];
 
 // for (let index = 0; index < amis.length; index++) {
-    
+
 //     while (amis[index] < amis.length){
-        
+
 //     }
-//     console.log( amis[index].repeat(index+1)); 
+//     console.log( amis[index].repeat(index+1));
 //   }
-  
+
+// EXERCICE 5.1
+
+// let iaNumber = 2;
+// let userNumber = prompt("Donne un numéro entre 1 et 3 ");
+
+// if (userNumber != iaNumber) {
+//   alert("Ce n'est pas le bon numéro essaie encore");
+//   prompt("Donne un autre numéro entre 1 et 3 ");
+// } else if (userNumber == iaNumber) {
+//   alert("C'est le bon numéro bravo");
+// }
