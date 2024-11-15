@@ -132,16 +132,17 @@
 
 // EXERCICE 5.8
 
-let chiffres = [];
-let compare = chiffres[0];
+// let chiffres = [];
 
-for (i = 1; i <= 20; i++) {
-  let num = prompt("Donne un chiffre :");
-  chiffres.push(num);
-}
-for (i = 0; i < chiffres.length; i++) {
-  if (chiffres[i] > compare) {
-    compare = chiffres[i];
-  }
-  console.log("Le nombre le plus grand est " + compare);
-}
+// for (i = 1; i <= 20; i++) {
+//   let num = Number(prompt("Donne un chiffre :"));
+//   chiffres.push(num);
+// }
+
+// let compare = chiffres[0];
+// for (i = 0; i <= chiffres.length - 1; i++) {
+//   if (chiffres[i] > compare) {
+//     compare = chiffres[i];
+//   }
+// }
+// console.log("Le nombre le plus grand est " + compare);
