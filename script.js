@@ -169,37 +169,71 @@
 
 // EXERCICE 5.10
 
-let panier = 55;
-let client = Number(
-  prompt("Le panier est de " + panier + " combien donnez vous?")
-);
-let billets10 = 0;
-let billet5 = 0;
-let piece1 = 0;
-let rendu = 0;
+// let panier = 55;
+// let client = Number(
+//   prompt("Le panier est de " + panier + " combien donnez vous?")
+// );
+// let billets10 = 0;
+// let billet5 = 0;
+// let piece1 = 0;
+// let rendu = 0;
 
-if (client < panier) {
-  alert("Ce n'est pas assez!");
-} else if (client == panier) {
-  alert("Merci bonne journée!");
-} else {
-  rendu = client - panier;
-  while (rendu >= 10) {
-    billets10++;
-    rendu -= 10;
-  }
-  if (rendu >= 5) {
-    billet5++;
-    rendu -= 5;
-  }
+// if (client < panier) {
+//   alert("Ce n'est pas assez!");
+// } else if (client == panier) {
+//   alert("Merci bonne journée!");
+// } else {
+//   rendu = client - panier;
+//   while (rendu >= 10) {
+//     billets10++;
+//     rendu -= 10;
+//   }
+//   if (rendu >= 5) {
+//     billet5++;
+//     rendu -= 5;
+//   }
+// }
+
+// alert(
+//   "Je vous rends " +
+//     billets10 +
+//     " billets de 10, " +
+//     billet5 +
+//     " billets de 5 et " +
+//     rendu +
+//     " pièces de 1"b
+// );
+
+// EXERCICE 5.11
+
+let n = prompt("Donne un nombre de chevaux partants");
+let p = prompt("Donne un nombre de chevaux joués");
+let factorN = 1;
+let factorP = 1;
+let factorNP = 1;
+let np = n - p;
+let X;
+let Y;
+
+// FACTORIELLE DE N
+for (i = 1; i <= n; i++) {
+  factorN = factorN * i;
 }
 
-alert(
-  "Je vous rends " +
-    billets10 +
-    " billets de 10, " +
-    billet5 +
-    " billets de 5 et " +
-    rendu +
-    " pièces de 1"
-);
+// FACTORIELLE DE P
+for (i = 1; i <= p; i++) {
+  factorP = factorP * i;
+}
+
+// FACTORIELLE DE (N - P)
+
+for (i = 1; i <= np; i++) {
+  factorNP = factorNP * i;
+}
+
+// CALCUL
+X = factorN / factorNP;
+Y = factorN / (factorP * factorNP);
+
+console.log("Dans l'ordre : une chance sur " + X + " de gagner");
+console.log("Dans le désordre : une chance sur " + Y + " de gagner");
