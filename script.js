@@ -146,3 +146,23 @@
 //   }
 // }
 // console.log("Le nombre le plus grand est " + compare);
+
+// EXERCICE 5.9
+
+// let chiffres = [];
+
+// for (i = 1; i > 0; i++) {
+//   let num = Number(prompt("Donne un chiffre :"));
+//   chiffres.push(num);
+//   if (num == 0) {
+//     break;
+//   }
+// }
+
+// let compare = chiffres[0];
+// for (i = 0; i <= chiffres.length - 1; i++) {
+//   if (chiffres[i] > compare) {
+//     compare = chiffres[i];
+//   }
+// }
+// console.log("Le nombre le plus grand est " + compare);
