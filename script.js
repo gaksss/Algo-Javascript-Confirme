@@ -166,3 +166,40 @@
 //   }
 // }
 // console.log("Le nombre le plus grand est " + compare);
+
+// EXERCICE 5.10
+
+let panier = 55;
+let client = Number(
+  prompt("Le panier est de " + panier + " combien donnez vous?")
+);
+let billets10 = 0;
+let billet5 = 0;
+let piece1 = 0;
+let rendu = 0;
+
+if (client < panier) {
+  alert("Ce n'est pas assez!");
+} else if (client == panier) {
+  alert("Merci bonne journée!");
+} else {
+  rendu = client - panier;
+  while (rendu >= 10) {
+    billets10++;
+    rendu -= 10;
+  }
+  if (rendu >= 5) {
+    billet5++;
+    rendu -= 5;
+  }
+}
+
+alert(
+  "Je vous rends " +
+    billets10 +
+    " billets de 10, " +
+    billet5 +
+    " billets de 5 et " +
+    rendu +
+    " pièces de 1"
+);
